@@ -1,0 +1,2123 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'zh' Physical Memory: 3995 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Jones/專案/Appedu/Appedu_JRPG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64227
+Successfully changed project path to: C:/Jones/專案/Appedu/Appedu_JRPG
+C:/Jones/專案/Appedu/Appedu_JRPG
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 355.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Jones/專案/Appedu/Appedu_JRPG/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) (ID=0x2e32)
+    Vendor:   
+    VRAM:     128 MB
+    Driver:   8.15.10.2702
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005924 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 204.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2588ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2212ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (197ms)
+			SetupLoadedEditorAssemblies (1107ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (92ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (205ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (194ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022045 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.108 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5111ms)
+		BeginReloadAssembly (855ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (3935ms)
+			LoadAssemblies (663ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1929ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (956ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (644ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.64 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 6.622000 ms (FindLiveObjects: 0.435100 ms CreateObjectMapping: 0.156800 ms MarkObjects: 5.804200 ms  DeleteObjects: 0.222600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/menu/SceneControl.cs
+  artifactKey: Guid(381be9465efa4e3439be62c8922a1120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/SceneControl.cs using Guid(381be9465efa4e3439be62c8922a1120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5eb3456a43fb28b7829a28da7bb4182') in 0.433565 seconds 
+  Import took 0.615624 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2874ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2381ms)
+			LoadAssemblies (323ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (796ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (874ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (586ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 6.830800 ms (FindLiveObjects: 0.443200 ms CreateObjectMapping: 0.140800 ms MarkObjects: 6.195700 ms  DeleteObjects: 0.047700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2775ms)
+		BeginReloadAssembly (314ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (2276ms)
+			LoadAssemblies (304ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (859ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (791ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (528ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 7.169200 ms (FindLiveObjects: 0.638400 ms CreateObjectMapping: 0.248900 ms MarkObjects: 6.225800 ms  DeleteObjects: 0.052600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4981.488591 seconds.
+  path: Assets/MouseCursor/MouseCursor.cs
+  artifactKey: Guid(a065800e6f9c36844b01a5a6df3784d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MouseCursor/MouseCursor.cs using Guid(a065800e6f9c36844b01a5a6df3784d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd68e3c97e6d157fb4a6ac8d1c87ec9') in 1.040009 seconds 
+  Import took 2.397970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.721319 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc088d1731b590f9572c6f2bab98c6a') in 0.295182 seconds 
+  Import took 0.308659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19571.867124 seconds.
+  path: Assets/Tiger/Materials/texture.png
+  artifactKey: Guid(a3eda7ec5daa2014e9883d0a5e9bb312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/Materials/texture.png using Guid(a3eda7ec5daa2014e9883d0a5e9bb312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea78ab1f5f9d7a05d2ca117aa3f67cb') in 14.190905 seconds 
+  Import took 15.116770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014724 seconds.
+  path: Assets/Tiger/Hit.fbx
+  artifactKey: Guid(3ba44afe9035c5e409c30bae1ec51c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/Hit.fbx using Guid(3ba44afe9035c5e409c30bae1ec51c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5350911ab2f795353bbe65787382b6ed') in 8.372380 seconds 
+  Import took 8.422266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/Tiger/sound.fbx
+  artifactKey: Guid(e5b1add7bc31a7f4db37d3603b8f12b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/sound.fbx using Guid(e5b1add7bc31a7f4db37d3603b8f12b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45629df7cc0fd5c2bfa0c80ffc822742') in 0.431469 seconds 
+  Import took 0.499096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.073152 seconds.
+  path: Assets/Tiger/run.fbx
+  artifactKey: Guid(fcd4de5ffa6d77f47a1da32a7f2fb699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/run.fbx using Guid(fcd4de5ffa6d77f47a1da32a7f2fb699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2e74c3d395b4ae0c1383480843ffa5') in 0.613935 seconds 
+  Import took 0.653661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.769617 seconds.
+  path: Assets/Tiger/Walk.fbx
+  artifactKey: Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/Walk.fbx using Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf3869958c36f9cd6b05da51f174394') in 0.789223 seconds 
+  Import took 0.983207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.537041 seconds.
+  path: Assets/Tiger/Tiger.unity
+  artifactKey: Guid(194f435cf74a85c439b506089d53d817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/Tiger.unity using Guid(194f435cf74a85c439b506089d53d817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b49c8172ef1a8682931fe836d1b207') in 0.162777 seconds 
+  Import took 0.216220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.295728 seconds.
+  path: Assets/Tiger/tiger_idle.fbx
+  artifactKey: Guid(0faaca137bc5a794098e6b71f8bb22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/tiger_idle.fbx using Guid(0faaca137bc5a794098e6b71f8bb22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4914c3eb26643813ef487fd7e2794960') in 0.566540 seconds 
+  Import took 0.600579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.976736 seconds.
+  path: Assets/Tiger/Materials
+  artifactKey: Guid(f42469215bbf01a4a9052b48d4072b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/Materials using Guid(f42469215bbf01a4a9052b48d4072b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535b6359039760172e6fb9ae84ff8bf9') in 0.150097 seconds 
+  Import took 0.267107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.031803 seconds.
+  path: Assets/Tiger/TigerSettings.lighting
+  artifactKey: Guid(e9648a919916af4428726fecec7e0e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/TigerSettings.lighting using Guid(e9648a919916af4428726fecec7e0e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '07a00a961bdcf7d299260d108b76c85e') in 0.299029 seconds 
+  Import took 0.310934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.140997 seconds.
+  path: Assets/menu/stat game.unity
+  artifactKey: Guid(c6139f056ef0f6e428dee939cd0c387a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/stat game.unity using Guid(c6139f056ef0f6e428dee939cd0c387a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f18c6783983ca50abf1133b7e7170d2') in 0.095225 seconds 
+  Import took 0.106195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.519103 seconds.
+  path: Assets/Tiger/Walk.fbx
+  artifactKey: Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/Walk.fbx using Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bd1d1054ded1d3d7cf97aec4545041') in 0.411396 seconds 
+  Import took 0.424191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.345099 seconds.
+  path: Assets/Tiger/Walk.fbx
+  artifactKey: Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/Walk.fbx using Guid(427f72e3e110e5145bf4956336b40f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ca4f87ec331b1b806c850417d813d2') in 0.644364 seconds 
+  Import took 0.668069 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.089630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11096ms)
+		BeginReloadAssembly (3735ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (484ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2016ms)
+		EndReloadAssembly (6836ms)
+			LoadAssemblies (966ms)
+			RebuildTransferFunctionScriptingTraits (12ms)
+			SetupTypeCache (1207ms)
+			ReleaseScriptCaches (110ms)
+			RebuildScriptCaches (296ms)
+			SetupLoadedEditorAssemblies (2390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (93ms)
+				SetLoadedEditorAssemblies (97ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (498ms)
+				ProcessInitializeOnLoadAttributes (1502ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (74ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1999.
+Total: 12.310500 ms (FindLiveObjects: 0.955300 ms CreateObjectMapping: 0.289300 ms MarkObjects: 10.990500 ms  DeleteObjects: 0.070300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 575.000661 seconds.
+  path: Assets/Tiger/tiger_idle.fbx
+  artifactKey: Guid(0faaca137bc5a794098e6b71f8bb22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/tiger_idle.fbx using Guid(0faaca137bc5a794098e6b71f8bb22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac76f1e77e70644b9a5748672ee56e47') in 0.523998 seconds 
+  Import took 0.548656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9888.417124 seconds.
+  path: Assets/Tiger/tiger.controller
+  artifactKey: Guid(67fdf13761bfc234a8602d6bc1348f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/tiger.controller using Guid(67fdf13761bfc234a8602d6bc1348f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e49a0e58d1719d3aec4e1aa1bec7024') in 0.446084 seconds 
+  Import took 0.702985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.294816 seconds.
+  path: Assets/menu/stat game.unity
+  artifactKey: Guid(c6139f056ef0f6e428dee939cd0c387a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/stat game.unity using Guid(c6139f056ef0f6e428dee939cd0c387a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd1473ee463502f272f4fa5041ac8e2') in 0.029558 seconds 
+  Import took 0.104429 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.178839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7910ms)
+		BeginReloadAssembly (730ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (56ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (286ms)
+		EndReloadAssembly (6914ms)
+			LoadAssemblies (511ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1610ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (3292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (729ms)
+				ProcessInitializeOnLoadAttributes (2449ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2002.
+Total: 7.929300 ms (FindLiveObjects: 0.717100 ms CreateObjectMapping: 0.243500 ms MarkObjects: 6.752100 ms  DeleteObjects: 0.211800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1505.130143 seconds.
+  path: Assets/menu/Tiger
+  artifactKey: Guid(af50a2b65f709294f87c3a80f518381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/Tiger using Guid(af50a2b65f709294f87c3a80f518381b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b99d0711ca3aa37aa3077a80ecc4385') in 0.071074 seconds 
+  Import took 0.122283 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017530 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3538ms)
+		BeginReloadAssembly (337ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (2973ms)
+			LoadAssemblies (412ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (907ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (1205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (419ms)
+				ProcessInitializeOnLoadAttributes (704ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 7.417200 ms (FindLiveObjects: 0.442400 ms CreateObjectMapping: 0.137100 ms MarkObjects: 6.781900 ms  DeleteObjects: 0.052400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1668.802512 seconds.
+  path: Assets/Tiger/tiger.controller
+  artifactKey: Guid(67fdf13761bfc234a8602d6bc1348f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/tiger.controller using Guid(67fdf13761bfc234a8602d6bc1348f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914ab23bfb1923b9c4e862f42caf5eac') in 1.445585 seconds 
+  Import took 1.558668 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.121627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2969ms)
+		BeginReloadAssembly (345ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2441ms)
+			LoadAssemblies (334ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (784ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (963ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (220ms)
+				ProcessInitializeOnLoadAttributes (610ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (77ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2006.
+Total: 6.873700 ms (FindLiveObjects: 0.452900 ms CreateObjectMapping: 0.178400 ms MarkObjects: 6.190200 ms  DeleteObjects: 0.049400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.157985 seconds.
+  path: Assets/Tiger/tiger 1.controller
+  artifactKey: Guid(356a170364a0c344e973b98145bb0b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiger/tiger 1.controller using Guid(356a170364a0c344e973b98145bb0b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb3eeb907ad70fd88e3e06cbc319722') in 0.114631 seconds 
+  Import took 0.144693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 281.731714 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Archer/Animations/Archer@Idle1(HairEdit).FBX
+  artifactKey: Guid(ab9afee7b921c1445a2a6130a40e83af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Archer/Animations/Archer@Idle1(HairEdit).FBX using Guid(ab9afee7b921c1445a2a6130a40e83af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9b6b8a8b3043894a589245270020fb') in 2.080691 seconds 
+  Import took 2.109151 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6716ms)
+		BeginReloadAssembly (603ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (5738ms)
+			LoadAssemblies (643ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1979ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (413ms)
+			SetupLoadedEditorAssemblies (2251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (80ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (600ms)
+				ProcessInitializeOnLoadAttributes (1485ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 8.435100 ms (FindLiveObjects: 0.810100 ms CreateObjectMapping: 0.300100 ms MarkObjects: 7.213700 ms  DeleteObjects: 0.107700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.303175 seconds.
+  path: Assets/Unity_Texture/New Animation.anim
+  artifactKey: Guid(ef53b12000119434e92287d34fa9859a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Texture/New Animation.anim using Guid(ef53b12000119434e92287d34fa9859a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4a8c984e3631003694e61168704208') in 0.355539 seconds 
+  Import took 0.414162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.813604 seconds.
+  path: Assets/menu/Player.controller
+  artifactKey: Guid(a91a306950dc58748aee43067583007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/Player.controller using Guid(a91a306950dc58748aee43067583007a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ca35983a89643c5b1f6ca2779e9ef8') in 0.110175 seconds 
+  Import took 0.160621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.870593 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Archer/Models/Mesh_Archer.FBX
+  artifactKey: Guid(fe62330e5c86d274cbf40a3c3f4dd897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Archer/Models/Mesh_Archer.FBX using Guid(fe62330e5c86d274cbf40a3c3f4dd897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edbf3bee1ae4a9a4724505bfb5c00d2') in 0.888313 seconds 
+  Import took 0.932717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.616396 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Damage_Down.FBX
+  artifactKey: Guid(c6d5845d178c0e846b3e170be3f43f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Damage_Down.FBX using Guid(c6d5845d178c0e846b3e170be3f43f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2007b3d3fc4fd195fc29f4aeac95b3') in 0.544745 seconds 
+  Import took 0.552450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.124461 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Damage_Strong.FBX
+  artifactKey: Guid(1524be0fe78e72b4eaeb134e6bea0c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Damage_Strong.FBX using Guid(1524be0fe78e72b4eaeb134e6bea0c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e94f470811883b46333a4178493b749') in 0.373962 seconds 
+  Import took 0.381854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.034048 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Damage_Stun.FBX
+  artifactKey: Guid(4df48906fb11c3346925f41102f0c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Damage_Stun.FBX using Guid(4df48906fb11c3346925f41102f0c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7ade251c5cae579cdbeb0085d76d6c') in 0.391371 seconds 
+  Import took 0.420373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.357394 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Damage_Weak.FBX
+  artifactKey: Guid(898fa2572f413da499e610c91e60738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Damage_Weak.FBX using Guid(898fa2572f413da499e610c91e60738a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5013e3931e937d0f34498104f1a51e8') in 0.310576 seconds 
+  Import took 0.361562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.314062 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Idle1.FBX
+  artifactKey: Guid(4fb6c5d90e99813448a8e26ce48a8748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior@Idle1.FBX using Guid(4fb6c5d90e99813448a8e26ce48a8748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388a8e3ff0cd41a480c1c0d9dba5da2c') in 0.324761 seconds 
+  Import took 0.351232 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.078 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3079ms)
+		BeginReloadAssembly (303ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2580ms)
+			LoadAssemblies (326ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (894ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (129ms)
+			SetupLoadedEditorAssemblies (951ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (255ms)
+				ProcessInitializeOnLoadAttributes (621ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2012.
+Total: 7.665000 ms (FindLiveObjects: 0.466400 ms CreateObjectMapping: 0.140400 ms MarkObjects: 6.918500 ms  DeleteObjects: 0.134300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169.859764 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior.mask
+  artifactKey: Guid(327bf1a56dc5a884db4566a8787598f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Warrior/Animations/Warrior.mask using Guid(327bf1a56dc5a884db4566a8787598f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10ac94b7e954a3ff22d48cf9d3c4ba1') in 0.101807 seconds 
+  Import took 0.136631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/menu/Player2.controller
+  artifactKey: Guid(b7b8a8447768ab249a0b5a374b7bad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu/Player2.controller using Guid(b7b8a8447768ab249a0b5a374b7bad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92467937bbdadc2942cfe67d8ae6405b') in 0.069194 seconds 
+  Import took 0.135992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.942326 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Bite Attack.FBX
+  artifactKey: Guid(7a3668342236b4b45a12dda5b252640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Bite Attack.FBX using Guid(7a3668342236b4b45a12dda5b252640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfc33ac8e94de55cb92aee76e21b547') in 1.441911 seconds 
+  Import took 1.461664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Turn Right.FBX
+  artifactKey: Guid(d7b4d9c7e4c96a74582b1706ca01f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Turn Right.FBX using Guid(d7b4d9c7e4c96a74582b1706ca01f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b4cac887b74c1b79518d9057344e59') in 0.423274 seconds 
+  Import took 0.452593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Idle.FBX
+  artifactKey: Guid(c9ef27e999ba1214fa0b91ff78ba45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Idle.FBX using Guid(c9ef27e999ba1214fa0b91ff78ba45d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c5ba306569ab5f3d2afe40e48fbff0') in 0.532650 seconds 
+  Import took 0.576750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Turn Left.FBX
+  artifactKey: Guid(7bceb1daeda8dd6469e2f681a45bc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Turn Left.FBX using Guid(7bceb1daeda8dd6469e2f681a45bc470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19f258c5887c5beb8a00b682425008e') in 0.517487 seconds 
+  Import took 0.540835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000828 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Turn Left.FBX
+  artifactKey: Guid(6f7f8b39884f0f24ab075df952c6e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Turn Left.FBX using Guid(6f7f8b39884f0f24ab075df952c6e9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e29b2b1d3a77a356fd30f0bfb7a100') in 0.415351 seconds 
+  Import took 0.423825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Take Damage.FBX
+  artifactKey: Guid(c256283bcd27d194989702394c079828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Take Damage.FBX using Guid(c256283bcd27d194989702394c079828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47e83aa40c34e2e094e2e6901e8b06b') in 0.423926 seconds 
+  Import took 0.448980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Turn Left.FBX
+  artifactKey: Guid(ff1185fac34be664293e67ad9734a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Turn Left.FBX using Guid(ff1185fac34be664293e67ad9734a775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b176f648a5ca8e8102f6241228c108bd') in 0.375382 seconds 
+  Import took 0.419408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Turn Right.FBX
+  artifactKey: Guid(3cda22e929dc7ee46a9e163290399ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Turn Right.FBX using Guid(3cda22e929dc7ee46a9e163290399ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c26e631f771426c5c930a2b634614a') in 0.375385 seconds 
+  Import took 0.414720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird.FBX
+  artifactKey: Guid(f23115f35c3b52f4ab230c9854adc176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird.FBX using Guid(f23115f35c3b52f4ab230c9854adc176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f6d8d167d70fc08e9deb059301ef5b') in 0.350574 seconds 
+  Import took 0.385242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Fly Forward In Place.FBX
+  artifactKey: Guid(bbce3f151dee49c4facb4ebd346f3da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Fly Forward In Place.FBX using Guid(bbce3f151dee49c4facb4ebd346f3da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2cc074f677567cbc26b8a46d8dae2') in 0.486055 seconds 
+  Import took 0.493055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Bite Attack.FBX
+  artifactKey: Guid(6948c422fd66780499af53394d20d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Bite Attack.FBX using Guid(6948c422fd66780499af53394d20d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5923c123178e447030ac95fd9708218') in 0.484922 seconds 
+  Import took 0.544798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Die.FBX
+  artifactKey: Guid(eb5a47e69bddb284b8f497cf9119d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Die.FBX using Guid(eb5a47e69bddb284b8f497cf9119d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4967bbd9dbe7455d3f39d8037c97d4') in 0.421524 seconds 
+  Import took 0.467625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Idle.FBX
+  artifactKey: Guid(16fd6275dfb6fe94a831475abe62e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Idle.FBX using Guid(16fd6275dfb6fe94a831475abe62e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3033efd844912a1676cf4b1f101f3125') in 0.441069 seconds 
+  Import took 0.448091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Die.FBX
+  artifactKey: Guid(bb7aed19963ed7a488a09170a91d20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Die.FBX using Guid(bb7aed19963ed7a488a09170a91d20b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17797f55df4a5e7ee567962b0cba64c8') in 0.399332 seconds 
+  Import took 0.448543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Fly Forward In Place.FBX
+  artifactKey: Guid(d5e1a3e942edaae4aab8019b75aff7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Fly Forward In Place.FBX using Guid(d5e1a3e942edaae4aab8019b75aff7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c59c6860a764ed82c41c30442c4b58') in 0.507533 seconds 
+  Import took 0.572018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Projectile Attack.FBX
+  artifactKey: Guid(08d7195da3726fb4e9e20f5faf82a03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Projectile Attack.FBX using Guid(08d7195da3726fb4e9e20f5faf82a03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae09e62ef922f675083846a68f2042d3') in 0.473136 seconds 
+  Import took 0.530046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Cast Spell.FBX
+  artifactKey: Guid(f462213228aed874381713ed95dfc214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Cast Spell.FBX using Guid(f462213228aed874381713ed95dfc214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3234d8de076c9dd311ca4574f793fafd') in 0.575719 seconds 
+  Import took 0.602070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord.FBX
+  artifactKey: Guid(9874b1bd035eca640a4d5b787a1e4fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord.FBX using Guid(9874b1bd035eca640a4d5b787a1e4fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f35721774ee29d93ad7a0a68c803b8') in 0.628533 seconds 
+  Import took 0.639393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Turn Left.FBX
+  artifactKey: Guid(8dea55cfb23544041b6989c456bb6c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Turn Left.FBX using Guid(8dea55cfb23544041b6989c456bb6c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8741a2659317c5e542680e2ba15d53fd') in 0.478403 seconds 
+  Import took 0.518920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Fly Forward W Root.FBX
+  artifactKey: Guid(4b77bbedcdb493c4b87e37e9bec1ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Fly Forward W Root.FBX using Guid(4b77bbedcdb493c4b87e37e9bec1ea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aeda784e58660525d2eb4f584381fee') in 0.475694 seconds 
+  Import took 0.496154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Head Attack.FBX
+  artifactKey: Guid(ef818b79f20a1954687d2bee917b1178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Head Attack.FBX using Guid(ef818b79f20a1954687d2bee917b1178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590dec42a2768ff1075897619c5ef70b') in 0.427326 seconds 
+  Import took 0.453685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000828 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Cast Spell.FBX
+  artifactKey: Guid(df6d2979c975e9445b813d653a46c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Cast Spell.FBX using Guid(df6d2979c975e9445b813d653a46c8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cd700c5c40e7cce845e8f3bdb05cf5') in 0.431135 seconds 
+  Import took 0.493356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000734 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egg@Shake.FBX
+  artifactKey: Guid(1aa9ffc0c7f2aed4eaa9cd2f882ff029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egg@Shake.FBX using Guid(1aa9ffc0c7f2aed4eaa9cd2f882ff029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce65add9f754a76486333d2ab97573e6') in 0.313863 seconds 
+  Import took 0.352708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egg@Idle.FBX
+  artifactKey: Guid(6b08ca44c9b2a1a4c99dff3ef0acc5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egg@Idle.FBX using Guid(6b08ca44c9b2a1a4c99dff3ef0acc5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7996b1bd8a32c036fe2a4f1b0056a71') in 0.381500 seconds 
+  Import took 0.451246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Walk Forward In Place.FBX
+  artifactKey: Guid(73e43404211063d49a3a4412219eef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Walk Forward In Place.FBX using Guid(73e43404211063d49a3a4412219eef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179b6934fbed2f6290e4e50828140d25') in 0.434873 seconds 
+  Import took 0.452687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Turn Right.FBX
+  artifactKey: Guid(75777572fe903144b9dfc527dc2f34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Turn Right.FBX using Guid(75777572fe903144b9dfc527dc2f34b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a6edae1db446eeb68b12c4b4fb4af5') in 0.470138 seconds 
+  Import took 0.476827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Turn Right.FBX
+  artifactKey: Guid(b8b26a2fe0c28794997b8867a6f88323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Turn Right.FBX using Guid(b8b26a2fe0c28794997b8867a6f88323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d473b7df16ce7ec36795e3ae0356e4c') in 0.378769 seconds 
+  Import took 0.404777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Take Damage.FBX
+  artifactKey: Guid(3175a32e3e5675f41bb0bff46a2a65dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Take Damage.FBX using Guid(3175a32e3e5675f41bb0bff46a2a65dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fba55908789ef8013a656be91ce1c2') in 0.486146 seconds 
+  Import took 0.530799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet.FBX
+  artifactKey: Guid(41aabd28057676a4d86e63afad06f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet.FBX using Guid(41aabd28057676a4d86e63afad06f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2685828d750d6112a91efac8bbdb6ed5') in 0.375612 seconds 
+  Import took 0.401634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Die.FBX
+  artifactKey: Guid(b3ea92912bde6384991a2dcc77bc6e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Die.FBX using Guid(b3ea92912bde6384991a2dcc77bc6e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e0dbaaea0f3324958b185ee4aa8831') in 0.570975 seconds 
+  Import took 0.581119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee.FBX
+  artifactKey: Guid(89cb33e715b9bc941b2fa1ccc233d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee.FBX using Guid(89cb33e715b9bc941b2fa1ccc233d8e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3def0a8fa722aa340cb40f99b48a15') in 0.442945 seconds 
+  Import took 0.462055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002074 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Jump Forward In Place.FBX
+  artifactKey: Guid(c671e6fefac09b743ac69c8fa928d330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Jump Forward In Place.FBX using Guid(c671e6fefac09b743ac69c8fa928d330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ba0840a8491568a31edf314b7cb123') in 0.353562 seconds 
+  Import took 0.398041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Turn Left.FBX
+  artifactKey: Guid(d488e3de78fa8f541b85d1047b401359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Turn Left.FBX using Guid(d488e3de78fa8f541b85d1047b401359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d3b993b4b482a168894762079d003e') in 0.357329 seconds 
+  Import took 0.373489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Projectile Attack.FBX
+  artifactKey: Guid(7c4e223953093ea4ab64b107a6acbee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Projectile Attack.FBX using Guid(7c4e223953093ea4ab64b107a6acbee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01740a208de97f2b955d99bc9867b20a') in 0.767802 seconds 
+  Import took 0.814701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sting Cute Series/FBX/Sting@Fly Forward W Root.FBX
+  artifactKey: Guid(da60f0f992fca8b49b5fc18d1b83eba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sting Cute Series/FBX/Sting@Fly Forward W Root.FBX using Guid(da60f0f992fca8b49b5fc18d1b83eba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3caad430692e2c376c6ee9429c5127') in 0.499576 seconds 
+  Import took 0.566016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001355 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Turn Right.FBX
+  artifactKey: Guid(bea37fbeff3b9d84c8de00da5d68c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Turn Right.FBX using Guid(bea37fbeff3b9d84c8de00da5d68c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fa6b9f0921c64a6359387181c1e39a') in 0.673848 seconds 
+  Import took 0.731504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Idle.FBX
+  artifactKey: Guid(f11645115898ab7438a38e52dbb683be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Idle.FBX using Guid(f11645115898ab7438a38e52dbb683be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef3f4fd1aea21b889dcd58aba17d72d') in 0.356883 seconds 
+  Import took 0.390065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Die.FBX
+  artifactKey: Guid(f359c6f726e0ae9469e43d508d3bac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Die.FBX using Guid(f359c6f726e0ae9469e43d508d3bac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e69689d68cbfa627fa4991acc12cd2') in 0.407786 seconds 
+  Import took 0.414728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Run Forward In Place.FBX
+  artifactKey: Guid(1e464cd6134bc0e48b27954239f6d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Run Forward In Place.FBX using Guid(1e464cd6134bc0e48b27954239f6d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e397c58616f6cdc0c525257a83222a0') in 0.522957 seconds 
+  Import took 0.563326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000573 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Fly Forward W Root.FBX
+  artifactKey: Guid(5ff57f2b60b3b6d47b8711a8c4b73652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Fly Forward W Root.FBX using Guid(5ff57f2b60b3b6d47b8711a8c4b73652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10192979614ef2d9f22ea6dc7794347f') in 0.537566 seconds 
+  Import took 0.589539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Cast Spell.FBX
+  artifactKey: Guid(920896bcb1a838344938778ae6f878c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Cast Spell.FBX using Guid(920896bcb1a838344938778ae6f878c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2282b3e22a3088ab529036b1e6a407d9') in 0.377620 seconds 
+  Import took 0.422747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Jump Forward In Place.FBX
+  artifactKey: Guid(a99a5c00186d8e54490f1bdf85a60e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Jump Forward In Place.FBX using Guid(a99a5c00186d8e54490f1bdf85a60e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2cd599050a826a370dfffd5af9e180') in 0.409353 seconds 
+  Import took 0.443845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Take Damage.FBX
+  artifactKey: Guid(72ec4f617b2b6c1429d60e035ba3b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Take Damage.FBX using Guid(72ec4f617b2b6c1429d60e035ba3b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0139ddfc49f54cb36d5991c97ec49b4f') in 0.377710 seconds 
+  Import took 0.420717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003327 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Run Forward W Root.FBX
+  artifactKey: Guid(6cee69742e57f9f43943010886d758f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Run Forward W Root.FBX using Guid(6cee69742e57f9f43943010886d758f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfe58b5a2e7db558e1d09cf4d5898d3') in 0.430762 seconds 
+  Import took 0.442220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick.FBX
+  artifactKey: Guid(e2564e28a1c3304458cb2b41e1ad2837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick.FBX using Guid(e2564e28a1c3304458cb2b41e1ad2837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb1607b2951bed355f2e7469349f244') in 0.364091 seconds 
+  Import took 0.373213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Idle.FBX
+  artifactKey: Guid(693daf1d52a9a934a861dfed132bbbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Idle.FBX using Guid(693daf1d52a9a934a861dfed132bbbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926aa9e5b5640da07314364592601cfb') in 0.406175 seconds 
+  Import took 0.413159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Head Attack.FBX
+  artifactKey: Guid(0f21b4422d53ac841acf3d44064cb4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Head Attack.FBX using Guid(0f21b4422d53ac841acf3d44064cb4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f9b7a95d201c304f4cfa17f557fd8f') in 0.731816 seconds 
+  Import took 0.754363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Walk Forward W Root.FBX
+  artifactKey: Guid(83ad6b7a05f939c4c9c289317cb3cd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Walk Forward W Root.FBX using Guid(83ad6b7a05f939c4c9c289317cb3cd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da2e0c6b7aac65aa5eda9f9c335bcc4') in 0.557082 seconds 
+  Import took 0.565476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Turn Right.FBX
+  artifactKey: Guid(2de65f73e9bf98048ad08db3493ccee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Turn Right.FBX using Guid(2de65f73e9bf98048ad08db3493ccee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87781427039bf7e6ca9e3475075f4826') in 0.390666 seconds 
+  Import took 0.431538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Spin Attack Attack.FBX
+  artifactKey: Guid(064a0162e35b3004e8171314154158ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Spin Attack Attack.FBX using Guid(064a0162e35b3004e8171314154158ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c52d590f7fc5c3ebd934aaa22386cba') in 0.487451 seconds 
+  Import took 0.494838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Cast Spell.FBX
+  artifactKey: Guid(76b2f3cafa41d854eb2862ba8ad0710f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Cast Spell.FBX using Guid(76b2f3cafa41d854eb2862ba8ad0710f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77465589c0965a98c7a9ffad64dda0b9') in 0.390243 seconds 
+  Import took 0.398669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Turn Right.FBX
+  artifactKey: Guid(8bc65afd9c0415c4b8f8f57e43fc76c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Turn Right.FBX using Guid(8bc65afd9c0415c4b8f8f57e43fc76c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926165305e9a51c8ac5be3b9af0e857b') in 0.311303 seconds 
+  Import took 0.329807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000721 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egg.FBX
+  artifactKey: Guid(8f86458425dc28e4eb15eeca07c23ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egg.FBX using Guid(8f86458425dc28e4eb15eeca07c23ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b703e97a910a721994f43fb4755dfd3') in 0.299760 seconds 
+  Import took 0.348826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001349 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Walk Forward W Root.FBX
+  artifactKey: Guid(f998c8ecd8f26f04c9903ca95aaec512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Walk Forward W Root.FBX using Guid(f998c8ecd8f26f04c9903ca95aaec512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db1b40b7024d296460f97e3f128b301') in 0.402022 seconds 
+  Import took 0.438259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Idle.FBX
+  artifactKey: Guid(88bb5657904724045aec28c885d52108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Idle.FBX using Guid(88bb5657904724045aec28c885d52108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d42cfe3eae749349a36bcea573e931') in 0.356796 seconds 
+  Import took 0.395969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Cast Spell.FBX
+  artifactKey: Guid(25c4914b831a65f4bb3173b9eb160ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Cast Spell.FBX using Guid(25c4914b831a65f4bb3173b9eb160ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcf46c449473d76ab0cfd1dc5f9481e') in 0.315605 seconds 
+  Import took 0.355834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Sting Attack.FBX
+  artifactKey: Guid(f07378823b8176d47ae7aee7e44c0b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Sting Attack.FBX using Guid(f07378823b8176d47ae7aee7e44c0b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621c707f01164ea744da062310e19a75') in 0.395721 seconds 
+  Import took 0.420171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Jump Forward W Root.FBX
+  artifactKey: Guid(1ae4c8a13db796349b16198c8d508ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Jump Forward W Root.FBX using Guid(1ae4c8a13db796349b16198c8d508ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac90ab3673dbedd7d35e26c3680266bf') in 0.390368 seconds 
+  Import took 0.416937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Run Forward In Place.FBX
+  artifactKey: Guid(b9b5c0806e932b94fa025a05902e3c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Run Forward In Place.FBX using Guid(b9b5c0806e932b94fa025a05902e3c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43683cd2c51091781a30be53245a9c78') in 0.436653 seconds 
+  Import took 0.456124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spook Cute Series/FBX/Spook@Fly Forward In Place.FBX
+  artifactKey: Guid(09623e1438c11cc449fe72946e844002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spook Cute Series/FBX/Spook@Fly Forward In Place.FBX using Guid(09623e1438c11cc449fe72946e844002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55dbeff713ecf0bba3c34f2cd2b5a61') in 0.449404 seconds 
+  Import took 0.479028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Kick Attack.FBX
+  artifactKey: Guid(909a27b4597cae745bc62169ffced200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Kick Attack.FBX using Guid(909a27b4597cae745bc62169ffced200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c879d6a84aa469888c428dbe96239b') in 0.742583 seconds 
+  Import took 0.773882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling.FBX
+  artifactKey: Guid(99e29cecf057f3c44af5f80efbbe7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling.FBX using Guid(99e29cecf057f3c44af5f80efbbe7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560f739ee0e8f6cbe7f49c715eac06b7') in 0.668582 seconds 
+  Import took 0.705044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Turn Left.FBX
+  artifactKey: Guid(96829a2dab640aa43a6f778fb5bc0da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Turn Left.FBX using Guid(96829a2dab640aa43a6f778fb5bc0da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92120cf7d7369d0804bc2358d01898f7') in 0.452231 seconds 
+  Import took 0.461976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Bite Attack.FBX
+  artifactKey: Guid(2f2dccf3edd90e94bbb865c74ac36d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Bite Attack.FBX using Guid(2f2dccf3edd90e94bbb865c74ac36d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5e4e47bd78ddccf49ae3a5e4ad1241') in 0.332060 seconds 
+  Import took 0.352233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spook Cute Series/FBX/Spook@Fly Forward W Root.FBX
+  artifactKey: Guid(ca57d764e28a38441a0fd76a5183115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spook Cute Series/FBX/Spook@Fly Forward W Root.FBX using Guid(ca57d764e28a38441a0fd76a5183115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6886f57559d99ec101bb90ec84d9e1') in 0.515116 seconds 
+  Import took 0.557036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Bite Attack.FBX
+  artifactKey: Guid(8bb6731f504487c4999ea572903a2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Bite Attack.FBX using Guid(8bb6731f504487c4999ea572903a2123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e0fe0a9ff653a696c5f0c993d96e67') in 0.403581 seconds 
+  Import took 0.421741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000820 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Walk Forward In Place.FBX
+  artifactKey: Guid(15e1f118e2b7a644e9b34ece5c6e0c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Walk Forward In Place.FBX using Guid(15e1f118e2b7a644e9b34ece5c6e0c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03167fc17d79dce122e50c4549e66458') in 0.491142 seconds 
+  Import took 0.521390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Walk Forward In Place.FBX
+  artifactKey: Guid(8701f0e57d7c97c43ad6b82a3064fc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Walk Forward In Place.FBX using Guid(8701f0e57d7c97c43ad6b82a3064fc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d385164458a1c7efeee4872c764e72') in 0.377528 seconds 
+  Import took 0.403604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002230 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Forward W Root.FBX
+  artifactKey: Guid(ee51e5174cf8cce45a5a0e075e581cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Forward W Root.FBX using Guid(ee51e5174cf8cce45a5a0e075e581cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9342e8de97e193e2db8ead0375bdd71c') in 0.346894 seconds 
+  Import took 0.366694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Crawl Forward Slow W Root.FBX
+  artifactKey: Guid(92631a1a0dd114543ad9be6c5c1527a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Crawl Forward Slow W Root.FBX using Guid(92631a1a0dd114543ad9be6c5c1527a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d82240be01fdbcdef697cfe01d6d6f') in 0.402139 seconds 
+  Import took 0.421890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Turn Left.FBX
+  artifactKey: Guid(3675889600a5d1b488ffe1d4ae4fe3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Turn Left.FBX using Guid(3675889600a5d1b488ffe1d4ae4fe3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c4718550e7480385de61ce0683f46f') in 0.380387 seconds 
+  Import took 0.410490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001457 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Take Damage.FBX
+  artifactKey: Guid(ea3b27bcac40bbc448664604b9f622ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Take Damage.FBX using Guid(ea3b27bcac40bbc448664604b9f622ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcf468985380414b0f002d43732abdf') in 0.396003 seconds 
+  Import took 0.405580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000689 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Crawl Forward Slow In Place.FBX
+  artifactKey: Guid(e833e5aea52a5aa44ad8e283ee884ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Crawl Forward Slow In Place.FBX using Guid(e833e5aea52a5aa44ad8e283ee884ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674898f8aeadc3b7bc19f96ce8d01520') in 0.395783 seconds 
+  Import took 0.424714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Turn Right.FBX
+  artifactKey: Guid(7d1c44ea0651419498b38ae1047bbade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Turn Right.FBX using Guid(7d1c44ea0651419498b38ae1047bbade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26c6701b8e5201f588a5c492368a8b7') in 0.323484 seconds 
+  Import took 0.343435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Wizard/Models/Wizard.FBX
+  artifactKey: Guid(f43bfeff8479d304688a2a16c6c570ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Wizard/Models/Wizard.FBX using Guid(f43bfeff8479d304688a2a16c6c570ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5c5e62e67a311f009517fba2841c79') in 1.000550 seconds 
+  Import took 1.021797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Die.FBX
+  artifactKey: Guid(458447bf50fc4104c9cb6cace3240d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Die.FBX using Guid(458447bf50fc4104c9cb6cace3240d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e175bffd16c45674c75bd20a5a8ec57') in 0.742448 seconds 
+  Import took 0.782769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Turn Right.FBX
+  artifactKey: Guid(433c0629834e58440a247a856328f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Turn Right.FBX using Guid(433c0629834e58440a247a856328f313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f939253f938aa7105d3fcad6eb533d') in 0.796804 seconds 
+  Import took 0.804999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Die.FBX
+  artifactKey: Guid(2bc4ff3dc13548943a8faa9ff3f282ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Die.FBX using Guid(2bc4ff3dc13548943a8faa9ff3f282ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6730a1fe7bedc2147b18766b5cae7e75') in 0.380720 seconds 
+  Import took 0.415445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Turn Left.FBX
+  artifactKey: Guid(2e78717f332682f4f8e8d43575e6ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Turn Left.FBX using Guid(2e78717f332682f4f8e8d43575e6ef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7870701fec5781553e8dfa001e44ba') in 0.329241 seconds 
+  Import took 0.367275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Projectile Attack.FBX
+  artifactKey: Guid(d91a44ee924bd0f41a4ce48ad8360ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Projectile Attack.FBX using Guid(d91a44ee924bd0f41a4ce48ad8360ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93108526067c60e7eb9f52d7bb90fca1') in 0.331850 seconds 
+  Import took 0.340040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014978 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Take Damage.FBX
+  artifactKey: Guid(0a542e57b829d104fbee8df82020f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Take Damage.FBX using Guid(0a542e57b829d104fbee8df82020f23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ef24207b3112122ea8496ada336b3b') in 0.457325 seconds 
+  Import took 0.478632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Turn Left.FBX
+  artifactKey: Guid(0d1c04509d09bd44fac823ec2e5bb30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Turn Left.FBX using Guid(0d1c04509d09bd44fac823ec2e5bb30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da5143fbc0fe34084e43740e59e41c') in 0.410769 seconds 
+  Import took 0.451153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Fly Forward W Root.FBX
+  artifactKey: Guid(90fc1566d0ffd844e9a8b24844ab1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Fly Forward W Root.FBX using Guid(90fc1566d0ffd844e9a8b24844ab1410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e50482032d9f2b63528bf6429db3b5c') in 0.536648 seconds 
+  Import took 0.562255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Take Damage.FBX
+  artifactKey: Guid(959f892cba145dd4e88e1c419644eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Take Damage.FBX using Guid(959f892cba145dd4e88e1c419644eaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ddf19cefc2cc73cf34edb596f60504') in 0.424163 seconds 
+  Import took 0.441595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019665 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spook Cute Series/FBX/Spook@Spawn.FBX
+  artifactKey: Guid(a4094308aa1622745bfdccd53c80f3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spook Cute Series/FBX/Spook@Spawn.FBX using Guid(a4094308aa1622745bfdccd53c80f3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7dc83dc3775bfaeea321c2b17a2312') in 0.407257 seconds 
+  Import took 0.421798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Projectile Attack.FBX
+  artifactKey: Guid(f7a3f1a83c373aa4d9007ebf6d8c14e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Projectile Attack.FBX using Guid(f7a3f1a83c373aa4d9007ebf6d8c14e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ac93de059996a9f51b0940dca3652e') in 0.394933 seconds 
+  Import took 0.418297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Turn Left.FBX
+  artifactKey: Guid(234bf77562d60734697351587539b789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Turn Left.FBX using Guid(234bf77562d60734697351587539b789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2f0c44dd1e3bd709d6dfb940b2f0fa') in 0.502987 seconds 
+  Import took 0.533167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000734 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sting Cute Series/FBX/Sting@Fly Forward In Place.FBX
+  artifactKey: Guid(16ac2f3aa0c152a4db788d70a6465f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sting Cute Series/FBX/Sting@Fly Forward In Place.FBX using Guid(16ac2f3aa0c152a4db788d70a6465f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a7235af55292bf933412a04772a8d1') in 0.642021 seconds 
+  Import took 0.673864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000836 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/FBX/Spider King@Crawl Forward Slow W Root.FBX
+  artifactKey: Guid(742bb083edac76c4bb87c63d5c067600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider King Cute Series/FBX/Spider King@Crawl Forward Slow W Root.FBX using Guid(742bb083edac76c4bb87c63d5c067600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0184998e78a3406a2820b4de60dd524') in 0.590992 seconds 
+  Import took 0.618393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Jump Forward W Root.FBX
+  artifactKey: Guid(c50626665d20bf345b0f430dd0afe094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Jump Forward W Root.FBX using Guid(c50626665d20bf345b0f430dd0afe094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93257a37ec2ed8858c829b22070a56f4') in 0.318519 seconds 
+  Import took 0.334636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000801 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Cast Spell.FBX
+  artifactKey: Guid(763eedf2b5d997649811c25075ddfb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Cast Spell.FBX using Guid(763eedf2b5d997649811c25075ddfb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d58cfb82dc3182495f478aa437e9d6') in 0.330717 seconds 
+  Import took 0.372238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001050 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Fly Forward W Root.FBX
+  artifactKey: Guid(3e08d141910a40b4981323ba467b04a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Fly Forward W Root.FBX using Guid(3e08d141910a40b4981323ba467b04a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fa688cb6244d6aaad89299c0855a8a') in 0.376111 seconds 
+  Import took 0.395420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000720 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Run Forward In Place.FBX
+  artifactKey: Guid(4410c74b6835685499fc6924b69a2198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Run Forward In Place.FBX using Guid(4410c74b6835685499fc6924b69a2198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1d840a27c1cce664f035be1fa76ee5') in 0.510692 seconds 
+  Import took 0.519794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Crawl Forward Fast W Root.FBX
+  artifactKey: Guid(e9622fa181ffe7a479180a7b193c5643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Crawl Forward Fast W Root.FBX using Guid(e9622fa181ffe7a479180a7b193c5643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3900baedb2ba165c78f3fd3de8e1c1b2') in 0.467806 seconds 
+  Import took 0.479189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Vampire Bat Cute Series/FBX/Vampire Bat@Fly Forward In Place.FBX
+  artifactKey: Guid(93701ee380d7eb3498974d7953e36849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Vampire Bat Cute Series/FBX/Vampire Bat@Fly Forward In Place.FBX using Guid(93701ee380d7eb3498974d7953e36849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df856303e1ca25f2744e81f60e657a78') in 0.366937 seconds 
+  Import took 0.425094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000856 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Die.FBX
+  artifactKey: Guid(b06cb980b4421d7479dde993d155da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Die.FBX using Guid(b06cb980b4421d7479dde993d155da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900b20437178ddee870acd57baa473bd') in 0.429574 seconds 
+  Import took 0.439202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Projectile Attack.FBX
+  artifactKey: Guid(c1f168e15dea03e4c8a1a6ef315011ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Projectile Attack.FBX using Guid(c1f168e15dea03e4c8a1a6ef315011ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3ec23350e5d27c051557ced8a09227') in 0.344270 seconds 
+  Import took 0.362395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Cast Spell.FBX
+  artifactKey: Guid(4a854f71f16d4ce4694cd15c86fd893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Cast Spell.FBX using Guid(4a854f71f16d4ce4694cd15c86fd893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69e81b22e5beb65840bfe512b09d153') in 0.328470 seconds 
+  Import took 0.375721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008457 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Run Forward W Root.FBX
+  artifactKey: Guid(f3a3f8fc08e8c5d4cb84962c649ed6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Run Forward W Root.FBX using Guid(f3a3f8fc08e8c5d4cb84962c649ed6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e55ea1e13f88a664fd961ee195d346') in 0.474619 seconds 
+  Import took 0.486887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000790 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble.FBX
+  artifactKey: Guid(dfcc8081a6ce38b4ba51ac9a6c2600a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble.FBX using Guid(dfcc8081a6ce38b4ba51ac9a6c2600a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0033ca4bb74871f97e3fc14ffb26616') in 0.566851 seconds 
+  Import took 0.588264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023998 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Walk Forward W Root.FBX
+  artifactKey: Guid(9a192d58fdc49764ea799a12c4e1c22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Walk Forward W Root.FBX using Guid(9a192d58fdc49764ea799a12c4e1c22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9d142202395a0011282b98753aaa71') in 0.425252 seconds 
+  Import took 0.436853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Projectile Attack.FBX
+  artifactKey: Guid(934030f41e4326f449ae083807803cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Projectile Attack.FBX using Guid(934030f41e4326f449ae083807803cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606f2ed0d02d83bdc5dca039355396aa') in 0.338817 seconds 
+  Import took 0.388533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Turn Right.FBX
+  artifactKey: Guid(14ed7872068df6d4ba8087db776305cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Turn Right.FBX using Guid(14ed7872068df6d4ba8087db776305cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66326cd8a4b4632a8a3b91fecbeb05a') in 0.325151 seconds 
+  Import took 0.354264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Cast Spell.FBX
+  artifactKey: Guid(9007b62bd0f992f4885306a4e1bcf64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Cute Series/FBX/Bat@Cast Spell.FBX using Guid(9007b62bd0f992f4885306a4e1bcf64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0036466895ac13e3aa7a9ce907b45a34') in 0.376639 seconds 
+  Import took 0.384554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001309 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Run Forward W Root.FBX
+  artifactKey: Guid(d4b98dfcd795a01469e3968509d8038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Run Forward W Root.FBX using Guid(d4b98dfcd795a01469e3968509d8038f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329900189c2bab22ae4d91a0414df41d') in 1.570228 seconds 
+  Import took 1.578849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Idle.FBX
+  artifactKey: Guid(c7ff1a380a7120a4ba7f3be442532779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Idle.FBX using Guid(c7ff1a380a7120a4ba7f3be442532779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6da31515ed832997024e5ebb16ec1b') in 0.624839 seconds 
+  Import took 0.647227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Crawl Forward Fast W Root.FBX
+  artifactKey: Guid(7b492b98fbc707e47a6f9f065b206a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Crawl Forward Fast W Root.FBX using Guid(7b492b98fbc707e47a6f9f065b206a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e13a4affa8b6d78370e5c2959104ed') in 0.360379 seconds 
+  Import took 0.397242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster.FBX
+  artifactKey: Guid(9c3eba06d4ca5b74ebb3854a5d047d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster.FBX using Guid(9c3eba06d4ca5b74ebb3854a5d047d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f7fd2beb54f33a079591e6bb996318') in 0.586040 seconds 
+  Import took 0.616000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000952 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Take Damage.FBX
+  artifactKey: Guid(acc4a09a318223649be06fc6e4e772a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bat Lord Cute Series/FBX/Bat Lord@Take Damage.FBX using Guid(acc4a09a318223649be06fc6e4e772a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4e6f2dc059d456293c4725910a70a1') in 0.500079 seconds 
+  Import took 0.514783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Die.FBX
+  artifactKey: Guid(1e98bfdd81797334bb100fa9d6ca66a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Die.FBX using Guid(1e98bfdd81797334bb100fa9d6ca66a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecb57e0703281c0949ded7020b2666f') in 0.331231 seconds 
+  Import took 0.353514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Bite Attack.FBX
+  artifactKey: Guid(5f7a28d915f57274aa31249d87bdc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Bite Attack.FBX using Guid(5f7a28d915f57274aa31249d87bdc87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f220783a2abf1c255cc64f95e987b6') in 0.342685 seconds 
+  Import took 0.386110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000779 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Vampire Bat Cute Series/FBX/Vampire Bat@Fly Forward W Root.FBX
+  artifactKey: Guid(8aa61858a112b2741b1858ff3c75738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Vampire Bat Cute Series/FBX/Vampire Bat@Fly Forward W Root.FBX using Guid(8aa61858a112b2741b1858ff3c75738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522524f828d77f1f46c584d586ba6ee2') in 0.344741 seconds 
+  Import took 0.365859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001296 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sting Cute Series/FBX/Sting@Power Jab Attack.FBX
+  artifactKey: Guid(bb2ad69765928044da0885e3a264cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sting Cute Series/FBX/Sting@Power Jab Attack.FBX using Guid(bb2ad69765928044da0885e3a264cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87edd7965a95a6e75fef9bf37e508102') in 0.420368 seconds 
+  Import took 0.440118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Idle.FBX
+  artifactKey: Guid(435063252014d9241b4c9200e122303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Idle.FBX using Guid(435063252014d9241b4c9200e122303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037c59ea974aa77339d46af6c2860edb') in 0.290444 seconds 
+  Import took 0.311701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Jump Forward In Place.FBX
+  artifactKey: Guid(6e7ca7265d644d442a6feeea5ed4d82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Jump Forward In Place.FBX using Guid(6e7ca7265d644d442a6feeea5ed4d82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2001e71c7e50f334405c33c4acc1ee') in 0.337993 seconds 
+  Import took 0.361239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Take Damage.FBX
+  artifactKey: Guid(856ca43eff82c27438d7b59fcf100a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Take Damage.FBX using Guid(856ca43eff82c27438d7b59fcf100a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd9da7f009599b300309f720b51405a') in 0.354687 seconds 
+  Import took 0.376499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Jump Forward W Root.FBX
+  artifactKey: Guid(3b26685f067e50c4fb174f7afafa3cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egglet@Jump Forward W Root.FBX using Guid(3b26685f067e50c4fb174f7afafa3cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec9bbc72fb8170c249ce007249ae286') in 0.417252 seconds 
+  Import took 0.440472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017521 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Bite Attack.FBX
+  artifactKey: Guid(5b18a36951ef6a349964c89917050dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Bite Attack.FBX using Guid(5b18a36951ef6a349964c89917050dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7827e514b2264fd7f17f86b611f434bc') in 0.529299 seconds 
+  Import took 0.564690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Idle 02.FBX
+  artifactKey: Guid(1827ae5c0e41e464fa29543c167ce5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Idle 02.FBX using Guid(1827ae5c0e41e464fa29543c167ce5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c158c8c588290a949522a2c76d1bcea4') in 0.460803 seconds 
+  Import took 0.489354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Stab Attack.FBX
+  artifactKey: Guid(3a617ed109f741340bf40180c2e66739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Stab Attack.FBX using Guid(3a617ed109f741340bf40180c2e66739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66ac85d14d6e0ee7deb9c3f2e7c5c2a') in 0.372467 seconds 
+  Import took 0.381057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012525 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Sting Attack.FBX
+  artifactKey: Guid(15b8977f9c35191488eeed5535d63319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bee Cute Series/FBX/Bee@Sting Attack.FBX using Guid(15b8977f9c35191488eeed5535d63319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24e583a2eb0096e26b166b44db0205f') in 0.363056 seconds 
+  Import took 0.394278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000737 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Take Damage.FBX
+  artifactKey: Guid(946457b288c6d9e4583ee2c7cfef3ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Chick Cute Series/FBX/Chick@Take Damage.FBX using Guid(946457b288c6d9e4583ee2c7cfef3ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c4b5753e9a3bfa02d86555a885048c') in 0.291556 seconds 
+  Import took 0.299837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Idle.FBX
+  artifactKey: Guid(e470827067d546e418d93ad0c1b5cf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fledgling Cute Series/FBX/Fledgling@Idle.FBX using Guid(e470827067d546e418d93ad0c1b5cf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6f291164560b5ad709a398244f560e') in 0.584341 seconds 
+  Import took 0.593706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002881 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Take Damage.FBX
+  artifactKey: Guid(602b43044a50d6a4da672c9e7ca23eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Take Damage.FBX using Guid(602b43044a50d6a4da672c9e7ca23eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e3a0fe6fcad07ea539a35ba826197a') in 0.599519 seconds 
+  Import took 0.610781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021403 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Idle.FBX
+  artifactKey: Guid(210ac98c5c5981e4e8fdf8536fecf462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Idle.FBX using Guid(210ac98c5c5981e4e8fdf8536fecf462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b0618dfe1afed33782e848534bcc2d') in 0.456588 seconds 
+  Import took 0.469787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001272 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Crawl Forward Fast In Place.FBX
+  artifactKey: Guid(61c99b2a139c0604bb072e6f2ed4c892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Toxin Cute Series/FBX/Spider Toxin@Crawl Forward Fast In Place.FBX using Guid(61c99b2a139c0604bb072e6f2ed4c892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5345107664bfb956923bae026ecae6b') in 1.035556 seconds 
+  Import took 1.075460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002691 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Fly Forward In Place.FBX
+  artifactKey: Guid(0c9eee6d95bf56348882c509be3f3ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bumble Cute Series/FBX/Bumble@Fly Forward In Place.FBX using Guid(0c9eee6d95bf56348882c509be3f3ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00195fa5682cac6adfb400f7c06a5ae') in 1.189156 seconds 
+  Import took 1.244111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001008 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Crawl Forward Fast In Place.FBX
+  artifactKey: Guid(0d22bbbf1f4207148a9e78b66987d5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Crawl Forward Fast In Place.FBX using Guid(0d22bbbf1f4207148a9e78b66987d5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c934d1eda3a788cf1f386d3061a1f3a') in 0.994539 seconds 
+  Import took 1.053016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036799 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Forward In Place.FBX
+  artifactKey: Guid(9c9f6cc8c17ad0243b14ecac046ba12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Bird Cute Series/FBX/Bird@Fly Forward In Place.FBX using Guid(9c9f6cc8c17ad0243b14ecac046ba12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6616f97ba4c3b253df2e3fb1a7230cbd') in 0.925058 seconds 
+  Import took 0.962161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001998 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Crawl Forward Slow In Place.FBX
+  artifactKey: Guid(371bb2760eac17e4bb7d4796181ce4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Crawl Forward Slow In Place.FBX using Guid(371bb2760eac17e4bb7d4796181ce4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aa856f4d3fb95262cb0a926831e0e2') in 0.705246 seconds 
+  Import took 0.717169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000824 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Cast Spell.FBX
+  artifactKey: Guid(8eeb23d69f0b5d6438b886009e6433db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Cast Spell.FBX using Guid(8eeb23d69f0b5d6438b886009e6433db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d368f8519b55808c900da521f27cfa') in 0.358413 seconds 
+  Import took 0.378441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013659 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Crawl Forward Slow W Root.FBX
+  artifactKey: Guid(1b76638f3ae23cd4eb69ce0ce1c99f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Spider Cute Series/FBX/Spider@Crawl Forward Slow W Root.FBX using Guid(1b76638f3ae23cd4eb69ce0ce1c99f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ed262a17f4a689d8ad25c7e4afc776') in 0.371246 seconds 
+  Import took 0.403507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001391 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Roar.FBX
+  artifactKey: Guid(d3078131e994c0d43bfbc1ef6eef9ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Flower Pot Monster Cute Series/FBX/Flower Pot Monster@Roar.FBX using Guid(d3078131e994c0d43bfbc1ef6eef9ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5284daf5f260882613d135e54d0007b') in 0.500168 seconds 
+  Import took 0.527020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000914 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Run Forward In Place.FBX
+  artifactKey: Guid(e33d6264de356164b8ce296f122599de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Run Forward In Place.FBX using Guid(e33d6264de356164b8ce296f122599de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e2b2c91f0295caa326a696e2c134a6') in 0.550425 seconds 
+  Import took 0.561334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001818 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egg@Spawn.FBX
+  artifactKey: Guid(18d205a6be77a804d9a0e32408817cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Egg Cute Series/FBX/Egg@Spawn.FBX using Guid(18d205a6be77a804d9a0e32408817cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c06a432dc8d20329f6c1e84bd776db9') in 0.438341 seconds 
+  Import took 0.470614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Walk Forward In Place.FBX
+  artifactKey: Guid(7a69adb2e1a676149bbec0878d0b2a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Sprout Cute Series/FBX/Sprout@Walk Forward In Place.FBX using Guid(7a69adb2e1a676149bbec0878d0b2a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5f6cf70f3a5742592b4cc98a5b9d93') in 0.563561 seconds 
+  Import took 0.572828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Run Forward W Root.FBX
+  artifactKey: Guid(cd654db2f2be99c4682238d3c462d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Toadstool Cute Series/FBX/Toadstool@Run Forward W Root.FBX using Guid(cd654db2f2be99c4682238d3c462d0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee73baa6456b2178daf2d6e12cdde66b') in 0.406666 seconds 
+  Import took 0.414776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Die.FBX
+  artifactKey: Guid(fe0488cc2a323364bb532732b8b36a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Empty/Monsters Ultimate Pack 01 Cute Series/Fungi Cute Series/FBX/Fungi@Die.FBX using Guid(fe0488cc2a323364bb532732b8b36a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363f429f4ba9f52042ecf6d15b81c534') in 0.388480 seconds 
+  Import took 0.411180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.376375 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Warrior/Animations
+  artifactKey: Guid(50ad7a7e4954a6d4b97fb6da05a2092f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Warrior/Animations using Guid(50ad7a7e4954a6d4b97fb6da05a2092f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07b0ae4b928db8b4077d132f4f41f65') in 0.093318 seconds 
+  Import took 0.121531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.725182 seconds.
+  path: Assets/AssetStore/Player/ATART/Character/Warrior/Materials
+  artifactKey: Guid(16a55b36cf1791b4895e692d3cc92745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Player/ATART/Character/Warrior/Materials using Guid(16a55b36cf1791b4895e692d3cc92745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09c2cae44e2ede9fe783cce85ad5d56') in 0.150721 seconds 
+  Import took 0.200493 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023057 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2937ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2436ms)
+			LoadAssemblies (304ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (779ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (928ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (628ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (64ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2048.
+Total: 7.767000 ms (FindLiveObjects: 0.461400 ms CreateObjectMapping: 0.139700 ms MarkObjects: 7.101600 ms  DeleteObjects: 0.059900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3489ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (3032ms)
+			LoadAssemblies (283ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1114ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1078ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (315ms)
+				ProcessInitializeOnLoadAttributes (682ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 8.753500 ms (FindLiveObjects: 0.690800 ms CreateObjectMapping: 0.312100 ms MarkObjects: 7.557000 ms  DeleteObjects: 0.188700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.137062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3685ms)
+		BeginReloadAssembly (350ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2979ms)
+			LoadAssemblies (385ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1089ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (257ms)
+			SetupLoadedEditorAssemblies (907ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (579ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 8.629700 ms (FindLiveObjects: 0.461300 ms CreateObjectMapping: 0.184900 ms MarkObjects: 7.912000 ms  DeleteObjects: 0.068400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
