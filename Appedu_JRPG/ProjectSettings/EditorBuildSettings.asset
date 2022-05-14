@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/menu/stat game.unity
     guid: c6139f056ef0f6e428dee939cd0c387a
+  - enabled: 1
+    path: Assets/menu/testing scenarios.unity
+    guid: 6a94aadc5ffbb3544b2b7c14b9232cb5
   m_configObjects: {}
